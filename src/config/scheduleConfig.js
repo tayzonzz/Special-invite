@@ -1,0 +1,63 @@
+export const APP_CONFIG = {
+  emailJS: {
+    serviceId: "YOUR_EMAILJS_SERVICE_ID",
+    templateId: "YOUR_EMAILJS_TEMPLATE_ID",
+    publicKey: "YOUR_EMAILJS_PUBLIC_KEY",
+  },
+  eventDefaults: {
+    title: "The Perfect Run 🏃‍♂️💨",
+    description: "Meeting up for a scenic run. Wear your favorite running shoes!",
+    location: "To Be Confirmed (Picked up by yours truly)",
+  },
+};
+
+export const RECOMMENDED_SLOTS = [
+  {
+    id: "slot_1",
+    badge: "🌅 Weekend Favorite",
+    badgeColor: "bg-amber-100 text-amber-700",
+    title: "Saturday Morning Golden Hour",
+    subtitle: "Sunrise run through the park",
+    displayTime: "Saturday · 8:00 AM",
+    duration: "90 min",
+    emoji: "☀️",
+    isoStart: "2026-06-06T08:00:00",
+    isoEnd: "2026-06-06T09:30:00",
+  },
+  {
+    id: "slot_2",
+    badge: "🌇 Sunset Sprint",
+    badgeColor: "bg-orange-100 text-orange-700",
+    title: "Tuesday Sunset Run",
+    subtitle: "Golden hour coastal trail",
+    displayTime: "Tuesday · 6:30 PM",
+    duration: "75 min",
+    emoji: "🌊",
+    isoStart: "2026-06-09T18:30:00",
+    isoEnd: "2026-06-09T19:45:00",
+  },
+  {
+    id: "slot_3",
+    badge: "🌸 Floral Route",
+    badgeColor: "bg-pink-100 text-pink-700",
+    title: "Sunday Garden Trail",
+    subtitle: "Past the hydrangea gardens",
+    displayTime: "Sunday · 9:00 AM",
+    duration: "60 min",
+    emoji: "💐",
+    isoStart: "2026-06-07T09:00:00",
+    isoEnd: "2026-06-07T10:00:00",
+  },
+  {
+    id: "slot_4",
+    badge: "🏙️ City Lights",
+    badgeColor: "bg-indigo-100 text-indigo-700",
+    title: "Friday Evening Sprint",
+    subtitle: "City loop under the lights",
+    displayTime: "Friday · 7:00 PM",
+    duration: "45 min",
+    emoji: "✨",
+    isoStart: "2026-06-12T19:00:00",
+    isoEnd: "2026-06-12T19:45:00",
+  },
+];
